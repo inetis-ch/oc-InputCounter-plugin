@@ -1,5 +1,6 @@
 # Input Counter
 Adds configurable characters counter for text fields.
+![demo](https://monosnap.com/file/qFkUldT4BxbeCAueyQ5IJzasKO2A5T)
 
 ## Available properties
 + `data-counter` (required)
@@ -38,3 +39,7 @@ public function boot()
     }
 }
 ```
+
+
+## Author
+inetis is a webdesign agency in Vufflens-la-Ville, Switzerland. We love coding and creating powerful apps and sites  [see our website](https://inetis.ch).
