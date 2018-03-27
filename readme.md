@@ -1,6 +1,6 @@
 # Input Counter
 Adds configurable characters counter for text fields.
-![demo](https://monosnap.com/file/qFkUldT4BxbeCAueyQ5IJzasKO2A5T)
+![demo](https://user-images.githubusercontent.com/16371551/37961518-c9f25c90-31b8-11e8-803b-6b8ec1527d83.gif)
 
 ## Available properties
 + `data-counter` (required)
