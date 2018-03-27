@@ -2,13 +2,28 @@
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: 5px;
-    margin-top: 3px;
+
+    border-radius: 3px;
+    padding: 2px 5px;
 }
 
 .field-multilingual .input-counter {
     top: auto;
     bottom: 100%;
-    margin-top: 0;
     margin-bottom: 5px;
+}
+
+.input-counter.text-success {
+    background-color: #31AC5F;
+    color: white;
+}
+
+.input-counter.text-danger {
+    background-color: #CC3300;
+    color: white;
+}
+
+.input-counter.text-warning {
+    background-color: #F0AD4E;
+    color: white;
 }
