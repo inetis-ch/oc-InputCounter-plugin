@@ -19,8 +19,8 @@ fields:
         label: My Field
         type: text
         attributes:
-            data-counter: true
-            data-max-lenght: 50
+            data-counter: ~
+            data-max-length: 50
     ...
 ```
 
