@@ -19,7 +19,7 @@ fields:
         label: My Field
         type: text
         attributes:
-            data-counter: true
+            data-counter: ~
             data-max-length: 50
     ...
 ```
@@ -31,7 +31,7 @@ public function boot()
     Event::listen('backend.form.extendFieldsBefore', function (Backend\Widgets\Form $form) {
         $form->tabs['fields']['viewBag[meta_title]'] += [
             'attributes' => [
-                'data-counter' => true,
+                'data-counter',
                 'data-optimal-min-length' => 50,
                 'data-optimal-max-length' => 60,
             ]
